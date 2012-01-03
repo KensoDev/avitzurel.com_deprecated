@@ -1,0 +1,31 @@
+/* 
+
+Quanix - CSS File
+
+USE THIS STYLE SHEET EXCLUSIVELY FOR WEB COMPANY IE6
+
+*/
+#nav .lavaLamp li a {
+	margin: auto 5px;
+}
+
+#nav .lavaLamp li a:hover {
+	margin: auto 5px; 
+}
+
+#nav .lavaLamp li .active {
+	margin: auto 5px; 
+}
+#nav .lavaLamp li.back {
+	background: url(../images/lava.gif) no-repeat right -25px;
+	width: 10px; height: 24px;
+	z-index: 8;
+	position: absolute;
+}
+#nav .lavaLamp li.back .left {
+	background: url(../images/lava.gif) no-repeat top left;
+	height: 24px;
+	margin-right: 10px; /* 7px is the width of the rounded shape */ 
+}
+#content-middle{width:734px; padding-bottom:0px;}
+.panel h1{background-color:#f4f4f4;}
